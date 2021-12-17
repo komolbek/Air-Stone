@@ -1,5 +1,5 @@
 # Air-Stone
-Personal finance management Tool. Specifically designed and developed application for iOS, macOS platforms.
+Personal finance management Tool. The application specifically designed and developed for iOS, macOS platforms.
 
 ## Table of contents
 - [Project's progress](#project-progress)
