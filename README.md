@@ -12,7 +12,7 @@ Personal finance management Tool. The application specifically designed and deve
 
 <h2 id="project-progress"> Project's progress </h2>
 
-- [x] Ideag & brainstorming;
+- [x] Idea & brainstorming;
 - [x] Initial planning;
 - [ ] User and System requirements;
 - [ ] Design;
