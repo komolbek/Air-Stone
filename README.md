@@ -24,11 +24,6 @@ Personal finance management Tool. The application specifically designed and deve
 Currently I am on the requirements development stage. Particularly, working on converting brainstorming into the specific User requirements.  
 
 <h2 id="app-features"> App features </h2>
-
-<p align="center"> Initial feature generation and Brainstorming </p>
-
-![brainstorming 2](https://user-images.githubusercontent.com/55618255/146557394-639ee805-b339-4155-9a5c-f64b72f30240.jpg)
-
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
 <h2 id="prototype"> Prototype </h2>
 <h2 id="techstack"> Technologies </h2>
