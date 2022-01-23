@@ -13,9 +13,20 @@
 		655125DB276CBF7C00384E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655125D9276CBF7C00384E48 /* Main.storyboard */; };
 		655125DD276CBF7E00384E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655125DC276CBF7E00384E48 /* Assets.xcassets */; };
 		655125E0276CBF7E00384E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655125DE276CBF7E00384E48 /* LaunchScreen.storyboard */; };
-		655125EB276CBF7F00384E48 /* AirStoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655125EA276CBF7F00384E48 /* AirStoneTests.swift */; };
 		655125F5276CBF7F00384E48 /* AirStoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655125F4276CBF7F00384E48 /* AirStoneUITests.swift */; };
 		655125F7276CBF7F00384E48 /* AirStoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655125F6276CBF7F00384E48 /* AirStoneUITestsLaunchTests.swift */; };
+		65524DEA279BA31300421FC6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DE9279BA31300421FC6 /* User.swift */; };
+		65524DEC279BA37700421FC6 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DEB279BA37700421FC6 /* Budget.swift */; };
+		65524DEE279BA63100421FC6 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DED279BA63100421FC6 /* Income.swift */; };
+		65524DF0279BA63800421FC6 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DEF279BA63800421FC6 /* Expense.swift */; };
+		65524DF2279BA64000421FC6 /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DF1279BA64000421FC6 /* Saving.swift */; };
+		65524DF5279BA9A800421FC6 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DF4279BA9A800421FC6 /* UserTests.swift */; };
+		65524DF8279BB46F00421FC6 /* UserNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DF7279BB46F00421FC6 /* UserNameValidator.swift */; };
+		65524DFA279BB4A600421FC6 /* UserNameValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DF9279BB4A600421FC6 /* UserNameValidatorTests.swift */; };
+		65524E05279BC50500421FC6 /* UserNameSpaceCleanerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524E04279BC50500421FC6 /* UserNameSpaceCleanerTests.swift */; };
+		65524E07279BC77000421FC6 /* UserNameSpaceCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65524DFB279BC1E700421FC6 /* UserNameSpaceCleaner.swift */; };
+		65D34C92279BD65500F61ECD /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D34C91279BD65500F61ECD /* CustomError.swift */; };
+		65D34C94279BD7D100F61ECD /* CustomResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D34C93279BD7D100F61ECD /* CustomResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +56,21 @@
 		655125DF276CBF7E00384E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		655125E1276CBF7E00384E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655125E6276CBF7F00384E48 /* AirStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		655125EA276CBF7F00384E48 /* AirStoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirStoneTests.swift; sourceTree = "<group>"; };
 		655125F0276CBF7F00384E48 /* AirStoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirStoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655125F4276CBF7F00384E48 /* AirStoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirStoneUITests.swift; sourceTree = "<group>"; };
 		655125F6276CBF7F00384E48 /* AirStoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirStoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65524DE9279BA31300421FC6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65524DEB279BA37700421FC6 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		65524DED279BA63100421FC6 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		65524DEF279BA63800421FC6 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		65524DF1279BA64000421FC6 /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		65524DF4279BA9A800421FC6 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		65524DF7279BB46F00421FC6 /* UserNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameValidator.swift; sourceTree = "<group>"; };
+		65524DF9279BB4A600421FC6 /* UserNameValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameValidatorTests.swift; sourceTree = "<group>"; };
+		65524DFB279BC1E700421FC6 /* UserNameSpaceCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameSpaceCleaner.swift; sourceTree = "<group>"; };
+		65524E04279BC50500421FC6 /* UserNameSpaceCleanerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameSpaceCleanerTests.swift; sourceTree = "<group>"; };
+		65D34C91279BD65500F61ECD /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		65D34C93279BD7D100F61ECD /* CustomResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,11 @@
 		655125D2276CBF7C00384E48 /* AirStone */ = {
 			isa = PBXGroup;
 			children = (
+				65524DE8279BA2FD00421FC6 /* Entities */,
+				65524DE7279BA2A100421FC6 /* Config */,
+				65524DE6279BA28D00421FC6 /* Presenter */,
+				65524DE5279BA28900421FC6 /* View */,
+				65524DE4279BA25800421FC6 /* Model */,
 				655125D3276CBF7C00384E48 /* AppDelegate.swift */,
 				655125D5276CBF7C00384E48 /* SceneDelegate.swift */,
 				655125D7276CBF7C00384E48 /* ViewController.swift */,
@@ -106,6 +133,10 @@
 				655125DC276CBF7E00384E48 /* Assets.xcassets */,
 				655125DE276CBF7E00384E48 /* LaunchScreen.storyboard */,
 				655125E1276CBF7E00384E48 /* Info.plist */,
+				65524DF7279BB46F00421FC6 /* UserNameValidator.swift */,
+				65524DFB279BC1E700421FC6 /* UserNameSpaceCleaner.swift */,
+				65D34C91279BD65500F61ECD /* CustomError.swift */,
+				65D34C93279BD7D100F61ECD /* CustomResult.swift */,
 			);
 			path = AirStone;
 			sourceTree = "<group>";
@@ -113,7 +144,9 @@
 		655125E9276CBF7F00384E48 /* AirStoneTests */ = {
 			isa = PBXGroup;
 			children = (
-				655125EA276CBF7F00384E48 /* AirStoneTests.swift */,
+				65524DF3279BA99600421FC6 /* Model */,
+				65524DF9279BB4A600421FC6 /* UserNameValidatorTests.swift */,
+				65524E04279BC50500421FC6 /* UserNameSpaceCleanerTests.swift */,
 			);
 			path = AirStoneTests;
 			sourceTree = "<group>";
@@ -125,6 +158,54 @@
 				655125F6276CBF7F00384E48 /* AirStoneUITestsLaunchTests.swift */,
 			);
 			path = AirStoneUITests;
+			sourceTree = "<group>";
+		};
+		65524DE4279BA25800421FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65524DE9279BA31300421FC6 /* User.swift */,
+				65524DEB279BA37700421FC6 /* Budget.swift */,
+				65524DED279BA63100421FC6 /* Income.swift */,
+				65524DEF279BA63800421FC6 /* Expense.swift */,
+				65524DF1279BA64000421FC6 /* Saving.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65524DE5279BA28900421FC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65524DE6279BA28D00421FC6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		65524DE7279BA2A100421FC6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		65524DE8279BA2FD00421FC6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		65524DF3279BA99600421FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65524DF4279BA9A800421FC6 /* UserTests.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65524E07279BC77000421FC6 /* UserNameSpaceCleaner.swift in Sources */,
+				65524DF0279BA63800421FC6 /* Expense.swift in Sources */,
+				65524DEA279BA31300421FC6 /* User.swift in Sources */,
 				655125D8276CBF7C00384E48 /* ViewController.swift in Sources */,
+				65524DEC279BA37700421FC6 /* Budget.swift in Sources */,
 				655125D4276CBF7C00384E48 /* AppDelegate.swift in Sources */,
+				65524DF8279BB46F00421FC6 /* UserNameValidator.swift in Sources */,
+				65D34C94279BD7D100F61ECD /* CustomResult.swift in Sources */,
+				65D34C92279BD65500F61ECD /* CustomError.swift in Sources */,
+				65524DEE279BA63100421FC6 /* Income.swift in Sources */,
 				655125D6276CBF7C00384E48 /* SceneDelegate.swift in Sources */,
+				65524DF2279BA64000421FC6 /* Saving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655125EB276CBF7F00384E48 /* AirStoneTests.swift in Sources */,
+				65524DF5279BA9A800421FC6 /* UserTests.swift in Sources */,
+				65524DFA279BB4A600421FC6 /* UserNameValidatorTests.swift in Sources */,
+				65524E05279BC50500421FC6 /* UserNameSpaceCleanerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
