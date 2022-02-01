@@ -163,11 +163,11 @@
 		65524DE4279BA25800421FC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65524DE9279BA31300421FC6 /* User.swift */,
 				65524DEB279BA37700421FC6 /* Budget.swift */,
-				65524DED279BA63100421FC6 /* Income.swift */,
 				65524DEF279BA63800421FC6 /* Expense.swift */,
+				65524DED279BA63100421FC6 /* Income.swift */,
 				65524DF1279BA64000421FC6 /* Saving.swift */,
+				65524DE9279BA31300421FC6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
